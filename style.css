@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: aliceblue;
+}
+
 h1, p {
     line-height: 1.2em;
 }
@@ -15,6 +19,7 @@ h1 {
 }
 
 p {
+    color: rgb(0, 0, 0, 65%);
     /* background-color: aqua; */
 }
 
@@ -25,7 +30,7 @@ p {
 
 #content-wrap {
     padding: 0 20px 80px 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0);
 }
 
 #content-wrap section {
@@ -56,6 +61,10 @@ p {
     font-weight: bold;
 }
 
+#nav-bar p {
+    color: black;
+}
+
 #hero {
     /* max-width: 980px; */
     display: flex;
@@ -63,7 +72,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 80px 0;
+    padding: 80px 20px;
     /* background-color: white; */
 }
 
@@ -85,10 +94,11 @@ p {
     max-width: 400px;
     height: auto;
     object-fit: fill;
+    border-radius: 24px;
 }
 
 #hero p {
-    color: rgb(100, 100, 100);
+    /* color: rgb(0, 0, 0, 50%); */
 }
 
 button.sign-up {
@@ -104,7 +114,50 @@ button.sign-up {
     border-radius: 100px;
 }
 
+.icon-section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+}
 
+.icon-section div.grid-title {
+    flex: 1;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.icon-grid {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.icon-grid div {
+    flex: 3;
+    /* background-color: blue; */
+}
+
+.icon-grid div p {
+    /* color: white; */
+    text-align: center;
+}
+
+.icon-grid div img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.block-quote {
+    padding: 80px 20px;
+}
 
 
 
@@ -124,7 +177,8 @@ footer {
     bottom: 0;
     width: 100%;
     height: 80px;
-    background-color: rgb(245, 245, 245);
+    /* color: rgb(0, 0, 0, 50%); */
+    background-color: rgb(255, 255, 255);
 }
 
 footer div {
