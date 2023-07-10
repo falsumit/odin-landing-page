@@ -1,3 +1,16 @@
 * {
     font-family: helvetica, aria, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 980px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+#nav {
+    height: 120px;
+    background-color: black;
 }
