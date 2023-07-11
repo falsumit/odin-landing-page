@@ -14,7 +14,7 @@ h1, p {
 
 h1 {
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -186,16 +186,26 @@ section.call-to-action {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 10%;
 }
 
-section.call-to-action p, section.call-to-action h2 {
+.call-to-action p, .call-to-action h2 {
     color: white;
 }
 
-section.call-to-action button {
+.call-to-action h2 {
+    margin-bottom: 5px;
+}
+
+.call-to-action button {
     color: black;
     background-color: white;
+}
+
+.call-to-action button:hover {
+    color: white;
+    background-color: black;
+    opacity: 100%;
 }
 
 
@@ -222,6 +232,15 @@ footer div {
 
 footer p {
     opacity: 50%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FF5733;
 }
 
 /* 
