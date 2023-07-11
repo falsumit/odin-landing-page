@@ -33,6 +33,12 @@ p {
     background-color: rgb(255, 255, 255, 0);
 }
 
+@media screen and (max-width: 600px) {
+    #content-wrap {
+        padding: 0 40px 80px 40px;
+    }
+}
+
 #content-wrap section {
     margin: 0 auto;
     max-width: 980px;
@@ -72,7 +78,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 80px 20px;
+    padding: 80px 0;
     /* background-color: white; */
 }
 
