@@ -13,13 +13,13 @@ h1, p {
 }
 
 h1 {
-    /*background-color: red;*/
     font-size: 48px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 p {
     color: rgb(0, 0, 0, 65%);
+    margin-bottom: 10px;
     /* background-color: aqua; */
 }
 
@@ -42,11 +42,11 @@ p {
 #content-wrap section {
     margin: 0 auto;
     max-width: 980px;
+    /* padding: 80px 0; */
 }
 
 #nav-bar {
     height: 80px;
-    /* max-width: 980px; */
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -54,13 +54,8 @@ p {
     align-items: center;
 }
 
-#nav-bar div {
-    /* background-color: red; */
-}
-
 #nav-bar div:nth-of-type(1) {
     flex: 2;
-    /* background-color: blue; */
 }
 
 #logo {
@@ -69,48 +64,35 @@ p {
 
 #nav-bar p {
     color: black;
+    margin-bottom: 0;
 }
 
-#hero {
-    /* max-width: 980px; */
+section#hero {
     display: flex;
-    flex: 1;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
     padding: 80px 0;
-    /* background-color: white; */
-}
-
-#hero div {
-    /* background-color: aqua; */
 }
 
 #hero div:nth-of-type(1) {
-    flex: 2;
-    min-width: 50%;
+    flex: 55%;
 }
 
 #hero div:nth-of-type(2) {
-    max-height: 200px;
+    flex: min-content;
+    /* background-color: blue; */
 }
 
 #hero img {
     width: 100%;
-    max-width: 400px;
-    height: auto;
-    object-fit: fill;
+    min-width: 300px;
     border-radius: 24px;
-}
-
-#hero p {
-    /* color: rgb(0, 0, 0, 50%); */
 }
 
 button.sign-up {
     width: 140px;
     height: 3rem;
-    margin: 2rem 0;
+    margin: 20px 0;
     cursor: pointer;
     font-weight: bold;
     font-size: 1em;
@@ -141,16 +123,13 @@ button.sign-up {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    /* background-color: red; */
 }
 
 .icon-grid div {
     flex: 3;
-    /* background-color: blue; */
 }
 
 .icon-grid div p {
-    /* color: white; */
     text-align: center;
 }
 
@@ -171,6 +150,7 @@ button.sign-up {
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .quote-cite {
@@ -194,7 +174,6 @@ footer {
     bottom: 0;
     width: 100%;
     height: 80px;
-    /* color: rgb(0, 0, 0, 50%); */
     background-color: rgb(255, 255, 255);
 }
 
