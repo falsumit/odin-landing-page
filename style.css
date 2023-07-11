@@ -73,6 +73,10 @@ p {
     cursor: pointer;
 }
 
+#nav-bar p:hover {
+    opacity: 60%;
+}
+
 #ghost-nav {
     color: rgb(0, 0, 0, 0%);
     cursor: default;
@@ -112,6 +116,10 @@ button.sign-up {
     background-color: #FF5733;
     border: none;
     border-radius: 100px;
+}
+
+button.sign-up:hover {
+    opacity: 80%;
 }
 
 .icon-section {
