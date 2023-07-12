@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 h1, p {
@@ -113,13 +113,13 @@ button.sign-up {
     font-weight: bold;
     font-size: 1em;
     color: white;
-    background-color: #FF5733;
+    background-color: #226ff4;
     border: none;
     border-radius: 100px;
 }
 
 button.sign-up:hover {
-    opacity: 80%;
+    background-color: #1257ce;
 }
 
 .icon-section {
@@ -177,11 +177,12 @@ button.sign-up:hover {
 .quote-cite {
     text-align: right;
     font-weight: bold;
+    color: black;
 }
 
 section.call-to-action {
     padding: 120px 0;
-    background-color: #FF5733;
+    background-color: #226ff4;
     border-radius: 24px;
 }
 
@@ -224,8 +225,6 @@ section.call-to-action {
 
 
 
-
-
 footer {
     position: absolute;
     bottom: 0;
@@ -251,7 +250,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #FF5733;
+    color: #226ff4;
 }
 
 /* 
